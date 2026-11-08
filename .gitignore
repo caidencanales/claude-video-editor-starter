@@ -1,0 +1,13 @@
+# media and outputs never go in the repo
+*.mp4
+*.mov
+*.mkv
+*.wav
+*.mp3
+*.m4a
+*.ass
+out/
+__pycache__/
+.pytest_cache/
+.venv/
+.env
