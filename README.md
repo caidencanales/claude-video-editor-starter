@@ -8,15 +8,8 @@ want: Claude plans with you and builds new features into this repo as you go.
 
 1. Install Python 3.10+ and [ffmpeg](https://ffmpeg.org/) (on PATH).
 2. `pip install -r requirements.txt`
-3. Open this folder in Claude Code and paste the activation prompt:
-
-```
-Read CLAUDE.md and README.md, then switch to plan mode. Interview me first: what kind of videos I make, my
-footage, the style I'm going for (send me questions with options), and 2-3 example videos I love. Then look at
-my footage and propose a plan: the first video we'll make together, and the features we should build into this
-editor to get there, in order. Once I approve the plan, build it step by step, show me the result after each
-step, and keep improving until it looks like the examples.
-```
+3. Open this folder in Claude Code, switch to plan mode, and paste the prompt from **[PROMPT.md](PROMPT.md)**. Claude
+   interviews you, studies your example videos and footage, plans, and then builds your editor with you step by step.
 
 Have a GPU? An NVIDIA card makes transcription much faster; it's used automatically when CUDA is set up, with a CPU
 fallback otherwise.
